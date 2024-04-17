@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 9,
-    "bottomRow": 80,
+    "topRow": 4,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "mobileRightColumn": 21,
     "animateLoading": true,
     "parentColumnSpace": 22.65625,
-    "leftColumn": 8,
+    "leftColumn": 3,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -33,7 +33,7 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 710,
+        "bottomRow": 680,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -72,7 +72,7 @@
     "key": "1xkw1qbx9d",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "jpwrobx8wm",
     "containerStyle": "card",
@@ -85,10 +85,10 @@
     "isLoading": false,
     "mobileTopRow": 39,
     "responsiveBehavior": "fill",
-    "originalTopRow": 9,
+    "originalTopRow": 4,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 80,
+    "originalBottomRow": 73,
     "minDynamicHeight": 10
 }

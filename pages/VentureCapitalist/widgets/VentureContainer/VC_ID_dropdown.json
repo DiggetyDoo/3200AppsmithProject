@@ -6,12 +6,13 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "GREEN",
+    "defaultOptionValue": "",
     "animateLoading": true,
     "leftColumn": 38,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "sourceData"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -30,6 +31,7 @@
     "mobileBottomRow": 9,
     "widgetName": "VC_ID_dropdown",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 8,
@@ -37,33 +39,21 @@
     "hideCard": false,
     "mobileRightColumn": 59,
     "parentColumnSpace": 15.39794921875,
+    "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "{{Api2.data}}",
     "key": "b2pl569tcz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 58,
     "widgetId": "4mlp8qxic6",
-    "optionValue": "code",
+    "optionValue": "VCID",
     "minWidth": 450,
     "parentId": "ddx41jf2zr",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 2,
-    "optionLabel": "name",
+    "optionLabel": "VCID",
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,

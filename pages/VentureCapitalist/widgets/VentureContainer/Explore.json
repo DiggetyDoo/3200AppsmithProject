@@ -11,8 +11,8 @@
         "click",
         "submit"
     ],
-    "topRow": 65,
-    "bottomRow": 69,
+    "topRow": 62,
+    "bottomRow": 66,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 16.6796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 23,
+    "leftColumn": 25,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "isDisabled": false,
     "key": "rk9k0l7kb0",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 41,
     "isDefaultClickDisabled": true,
     "widgetId": "wirulpljay",
     "minWidth": 120,
