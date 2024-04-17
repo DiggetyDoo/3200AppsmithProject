@@ -1,16 +1,12 @@
 {
   "pages": [
     {
-
-      "id": "Homepage",
-
       "id": "BrowseStartups_VC",
       "isDefault": false
     },
     {
       "id": "VentureCapitalist",
-
-      
+      "isDefault": true
     }
   ],
   "viewMode": false,
