@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 960,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "BrowseStartups_VC_Api1",
-              "name": "Api1",
+              "id": "BrowseStartups_VC_startups",
+              "name": "startups",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

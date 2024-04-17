@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api2",
+    "name": "startups",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/se/vcids"
+        "url": "web:4000/s/startup"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "VentureCapitalist",
+    "pageId": "BrowseStartups_VC",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -49,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T16:27:44Z"
+    "createdAt": "2024-04-17T19:39:17Z"
   },
-  "id": "VentureCapitalist_Api2",
+  "id": "BrowseStartups_VC_startups",
   "deleted": false,
-  "gitSyncId": "661ff25b88355f6886755c3f_661ff8808b46ab5f5d1ae183"
+  "gitSyncId": "661ff25b88355f6886755c3f_6620256509516f26ff46839c"
 }

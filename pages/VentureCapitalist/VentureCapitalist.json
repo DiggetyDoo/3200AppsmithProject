@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "VentureCapitalist_Api2",
-              "name": "Api2",
+              "id": "VentureCapitalist_A_GET_VCIDS",
+              "name": "A_GET_VCIDS",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
