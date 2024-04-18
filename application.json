@@ -7,6 +7,10 @@
     {
       "id": "VentureCapitalist",
       "isDefault": true
+    },
+    {
+      "id": "Explore Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
