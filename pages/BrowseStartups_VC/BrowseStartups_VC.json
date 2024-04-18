@@ -1,35 +1,45 @@
 {
   "unpublishedPage": {
-    "name": "Homepage",
-    "slug": "homepage",
+    "name": "BrowseStartups_VC",
+    "slug": "browsestartups-vc",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 960,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "BrowseStartups_VC_startups",
+              "name": "startups",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Homepage",
+        "id": "BrowseStartups_VC",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661af54e4ae34944b0ff0617_661af54e4ae34944b0ff0619"
+  "gitSyncId": "661ff25b88355f6886755c3f_661ff31b88355f6886755c4a"
 }
