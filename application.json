@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Acquirer Home",
       "isDefault": true
+    },
+    {
+      "id": "Explore Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
