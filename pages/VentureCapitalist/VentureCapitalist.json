@@ -36,7 +36,7 @@
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
+          ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
