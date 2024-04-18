@@ -6,6 +6,10 @@
     },
     {
       "id": "VentureCapitalist",
+      "isDefault": false
+    },
+    {
+      "id": "Homepage",
       "isDefault": true
     },
     {
