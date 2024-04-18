@@ -13,6 +13,11 @@
       "isDefault": true
     },
     {
+
+      "id": "Startups Info",
+      "isDefault": falses
+    },
+    {
       "id": "Explore Page",
       "isDefault": false
     }

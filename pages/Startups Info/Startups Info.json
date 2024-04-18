@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "VentureCapitalist",
-    "slug": "venturecapitalist",
+    "name": "Startups Info",
+    "slug": "startups-info",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 1000,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 84,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "VentureCapitalist_A_GET_VCIDS",
-              "name": "A_GET_VCIDS",
+              "id": "Startups Info_StartupIDs",
+              "name": "StartupIDs",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
+          ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "VentureCapitalist",
+        "id": "Startups Info",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661af54e4ae34944b0ff0617_661af54e4ae34944b0ff0619"
+  "gitSyncId": "6620416b09516f26ff4683af_6620721199e2464d8db48323"
 }
