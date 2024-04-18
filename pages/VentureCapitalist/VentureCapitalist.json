@@ -31,13 +31,12 @@
             {
               "id": "VentureCapitalist_A_GET_VCIDS",
               "name": "A_GET_VCIDS",
-
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ]
+          ],
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
