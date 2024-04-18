@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.11181640625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 7,
+    "leftColumn": 10,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Investment Analytics",
     "key": "pe07xqwgxh",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 20,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "trlgzcqgxb",

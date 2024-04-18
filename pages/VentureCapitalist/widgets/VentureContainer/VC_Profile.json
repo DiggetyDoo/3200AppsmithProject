@@ -60,6 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713376165621,
+    "originalBottomRow": 73,
     "primaryColumnId": "VCID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -236,6 +237,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": false,
     "responsiveBehavior": "fill",
+    "originalTopRow": 20,
     "mobileLeftColumn": 30,
     "isVisiblePagination": false,
     "verticalAlignment": "CENTER"
