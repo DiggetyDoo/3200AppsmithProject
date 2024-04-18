@@ -13,7 +13,11 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+<<<<<<< HEAD:pages/VentureCapitalist/VentureCapitalist.json
           "bottomRow": 880,
+=======
+          "bottomRow": 460,
+>>>>>>> c79f5e8 (worked on acquirer):pages/Page1/Page1.json
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,13 +33,33 @@
         "layoutOnLoadActions": [
           [
             {
+<<<<<<< HEAD:pages/VentureCapitalist/VentureCapitalist.json
               "id": "VentureCapitalist_A_GET_VCIDS",
               "name": "A_GET_VCIDS",
+=======
+              "id": "Page1_GetsAcqIDs",
+              "name": "GetsAcqIDs",
+>>>>>>> c79f5e8 (worked on acquirer):pages/Page1/Page1.json
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
+<<<<<<< HEAD:pages/VentureCapitalist/VentureCapitalist.json
+=======
+          ],
+          [
+            {
+              "id": "Page1_GetAcqTargetsForAcquirer",
+              "name": "GetAcqTargetsForAcquirer",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "AcqID_DropDown.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+>>>>>>> c79f5e8 (worked on acquirer):pages/Page1/Page1.json
           ]
         ],
         "layoutOnLoadActionErrors": [],
