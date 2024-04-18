@@ -1,7 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "VentureCapitalist",
-    "slug": "venturecapitalist",
+
+    "name": "Acquirer Home",
+    "slug": "acquirer-home",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,18 +30,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "VentureCapitalist_A_GET_VCIDS",
-              "name": "A_GET_VCIDS",
+              "id": "Acquirer Home_GetAcqIDs",
+              "name": "GetAcqIDs",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ],
+          [
+            {
+              "id": "Acquirer Home_GetAcqTargetsForAcquirer",
+              "name": "GetAcqTargetsForAcquirer",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "AcqID_DropDown.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "VentureCapitalist",
+        "id": "Acquirer Home",
         "deleted": false,
         "policies": [],
         "userPermissions": []
