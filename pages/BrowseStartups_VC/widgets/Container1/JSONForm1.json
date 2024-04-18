@@ -31,7 +31,8 @@
         {"key": "schema.__root_schema__.children.acqID.borderRadius"},
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
-        {"key": "schema.__root_schema__.cellBorderRadius"}
+        {"key": "schema.__root_schema__.cellBorderRadius"},
+        {"key": "schema.__root_schema__.children.acqID.defaultValue"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -264,7 +265,7 @@
                 "boxShadow": "none",
                 "isRequired": true,
                 "isCustomField": false,
-                "defaultValue": "",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.URL.queryParams.id))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "null",
                 "accessor": "VCID",
@@ -277,7 +278,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 5,
-                "isDisabled": false,
+                "isDisabled": true,
                 "fieldType": "Text Input"
             }
         },
