@@ -11,6 +11,10 @@
     {
       "id": "Homepage",
       "isDefault": true
+    },
+    {
+      "id": "Startups Info",
+      "isDefault": false
     }
   ],
   "viewMode": false,
